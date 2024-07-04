@@ -118,6 +118,7 @@
 	width: 50%;
 	text-align: right;
 	margin-right: 30px;
+	color: white;
 	
 }
 .about-title_heading{
@@ -165,7 +166,7 @@
 	font-weight: 600;
 	line-height: 40px;
 	padding-bottom:20px;
-	color: #fff;
+	color: #fff800;
 
 }
 
@@ -205,8 +206,8 @@
 .services-one{
 	position:relative;
 	padding:100px 0px 70px;
-	background: #003773;
-	background: #003773;
+	background: #1f3400;
+	background: #1f3400;
 }
 
 .service-block_one{
@@ -302,8 +303,8 @@
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
-	background: #003773;
-    background: #003773;
+	background: #1f3400;
+    background: #1f3400;
 }
 
 .gallery-block_one-inner:hover .gallery-block_one-content:before{
@@ -453,8 +454,8 @@
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
-	background: #003773;
-    background: #003773;
+	background: #1f3400;
+    background: #1f3400;
 }
 
 .journal-block_one-inner:hover::before{
@@ -726,8 +727,8 @@
 	width:15px;
 	height:15px;
 	border-radius:50px;
-	background: #003773;
-    background: #003773;
+	background: #1f3400;
+    background: #1f3400;
 }
 
 .counter-block_one-counter{
@@ -758,14 +759,13 @@
 .stats-one_contact-inner{
 	position:relative;
 	padding:35px 35px;
-	background: #003773;
-    background: #003773;
+	background: transparent
 }
 
 .stats-one_contact-content{
 	position:relative;
 	padding:19px 30px 19px 80px;
-	background-color:var(--color-four);
+	background-color:transparent;
 }
 
 .stats-one_contact-icon{
@@ -838,8 +838,8 @@
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
-	background: #003773;
-    background: #003773;
+	background: #1f3400;
+    background: #1f3400;
 }
 
 .awards-block_one-inner:hover::before{
@@ -1222,8 +1222,8 @@
 	color:var(--white-color);
     display: inline-block;
 	text-transform:uppercase;
-    background: #003773;
-    background: #003773;
+    background: #1f3400;
+    background: #1f3400;
 }
 
 .contact-form .form-group button:hover{
@@ -1517,14 +1517,14 @@ a.backtop:hover {
 /* Apply animated gradient on hover */
 .team-block_one-socials a:hover {
     animation: gradient-animation 2s ease infinite;
-    transform: scale(1.1);    background: #003773;
-    background: #003773;
+    transform: scale(1.1);    background: #1f3400;
+    background: #1f3400;
 }
 .team-block_one-socials a:hover {
     animation: gradient-animation 2s ease infinite;
     transform: scale(1.1);
-    background: #003773;
-    background: #003773;
+    background: #1f3400;
+    background: #1f3400;
     transition: background 1s ease; /* Slower transition for the background */
 }
 .team-block_one-socials a {
@@ -1540,7 +1540,7 @@ a.backtop:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #003773;
+    background: #1f3400;
     z-index: -1;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.5s ease; /* Smooth transition for opacity */
@@ -1564,8 +1564,8 @@ a.backtop:hover {
 
 /* Customize scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-    background: #003773;
-    background: #003773; /* Gradient for the scrollbar thumb */
+    background: #1f3400;
+    background: #1f3400; /* Gradient for the scrollbar thumb */
     border-radius: 10px; /* Rounded corners of the scrollbar thumb */
     border: 2px solid transparent; /* Border of the scrollbar thumb */
 }
